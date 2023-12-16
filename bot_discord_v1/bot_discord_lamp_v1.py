@@ -10,13 +10,13 @@ intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=commands.when_mentioned_or(''), intents=intents)
 
 # Definisikan IP address sebagai variabel
-lamp_ip = 'http://192.168.43.17'
+lamp_ip = 'your ip'
 
 @bot.event
 async def on_ready():
     print(f'Terhubung sebagai {bot.user.name} ({bot.user.id})')
 
-    # Dapatkan channel text pertama di server yang terhubung oleh bot
+    # Gantilah ID server dengan ID server Discord yang diinginkan
     channel = bot.get_guild(1176552033327788072).text_channels[0]
 
     # Kirim pesan otomatis dengan daftar perintah
@@ -79,4 +79,4 @@ def get_help_message():
     )
 
 # Jalankan bot
-bot.run('MTE3NjUyNTQ3MzcyMzk4MTg0Ng.Gd6QEl.6XaCYDAauGn4bP-IiPg-Db_1rKzdazSaPRLHQA')
+bot.run('your token bot discord')
