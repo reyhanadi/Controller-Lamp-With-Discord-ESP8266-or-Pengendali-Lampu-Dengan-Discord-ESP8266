@@ -1,4 +1,4 @@
-(https://github.com/reyhanadi/Controller-Lamp-With-Discord-ESP8266-or-Pengendali-Lampu-Dengan-Discord-ESP8266/assets/98005159/60ba839b-9542-4d4f-88c7-85d675c1dbf1)# Controller-Lamp-With-Discord-ESP8266-or-Pengendali-Lampu-Dengan-Discord-ESP8266
+# Controller-Lamp-With-Discord-ESP8266-or-Pengendali-Lampu-Dengan-Discord-ESP8266
 Prototype Number V-1 Discord Controller Lamp
 
 HATI HATI DALAM MENJALANKAN PROJECT INI SAYA TIDAK BERTANGGUNG JAWAB UNTUK KECELAKAN ATAU APAPUN YANG TERJADI, ANDA HARUS MEMPELAJARAI DAN HATI HATI SAAT MEMPELAJARI TENTANG KELISTRIKAN , KARENA PROJECT INI TERDAPAT TEGANGAN TINGGI 
