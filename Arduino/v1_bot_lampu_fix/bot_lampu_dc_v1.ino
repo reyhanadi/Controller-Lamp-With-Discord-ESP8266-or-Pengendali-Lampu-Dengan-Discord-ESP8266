@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-const char *ssid = "realme5i";
-const char *password = "adi4862123";
+const char *ssid = "your ssid";
+const char *password = "your password wifi/hotspot";
 
 // Deklarasikan pin relay sesuai dengan koneksi pada NodeMCU
 const int lampu1Pin = 5;  // GPIO 5
