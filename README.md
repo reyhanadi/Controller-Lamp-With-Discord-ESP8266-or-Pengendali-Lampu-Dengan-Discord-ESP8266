@@ -1,9 +1,9 @@
 # Controller-Lamp-With-Discord-ESP8266-or-Pengendali-Lampu-Dengan-Discord-ESP8266
 Prototype Number V-1 Discord Controller Lamp
 
-HATI HATI DALAM MENJALANKAN PROJECT INI SAYA TIDAK BERTANGGUNG JAWAB UNTUK KECELAKAN ATAU APAPUN YANG TERJADI
-ANDA HARUS MEMPELAJARAI DAN HATI HATI SAAT MEMPELAJARI TENTANG KELISTRIKAN 
-KARENA PROJECT INI TERDAPAT TEGANGAN TINGGI 
+- HATI HATI DALAM MENJALANKAN PROJECT INI SAYA TIDAK BERTANGGUNG JAWAB UNTUK KECELAKAN ATAU APAPUN YANG TERJADI
+- ANDA HARUS MEMPELAJARAI DAN HATI HATI SAAT MEMPELAJARI TENTANG KELISTRIKAN 
+- KARENA PROJECT INI TERDAPAT TEGANGAN TINGGI 
 
 Jika Anda Tidak tahu rangkaian atau kelistikan project anda tanyakan ahlinya atau temanmu
 
@@ -60,8 +60,45 @@ Kekurangan Project ini adalah
 - Tidak ada library Discord di aplikasi arduino saya harap kedepanya disediakan library langsung seperti telegram agar mudah membuat atau mengembangkan iot dengan discord
 - IP masih lokal 
 - Tidak bisa di dijalankan di hosting atau replit karena menggunakan ip lokal jadi tidak akan terkoneksi iot dengan bot
+
+
 ________________________________________
+
+
 English:
+
+Important Safety Disclaimers:
+1.	Disclaimer of Responsibility:
+•	Caution: Exercise extreme caution when executing this project. I do not take responsibility for any accidents or incidents that may occur during the implementation or operation of this project.
+
+2.	Electrical Knowledge and Precautions:
+•	Safety First: It is crucial to study and exercise caution when delving into the realm of electronics and electricity. Given the presence of high voltage in this project, a thorough understanding of electrical principles is necessary.
+
+3.	High Voltage Warning:
+•	Handle with Care: This project involves high voltage components. Always be aware of the potential dangers associated with high voltage, and take appropriate precautions to ensure personal safety.
+Additional Notes:
+
+Seek Expert Advice:
+•	If you are unfamiliar with circuitry or electrical systems, it is strongly advised to consult with experts or seek guidance from knowledgeable individuals. Always prioritize safety and seek assistance from friends or professionals.
+
+List of Equipment Used:
+1.	ESP 8266:
+•	The primary microcontroller used for IoT communication.
+2.	4-Relay Module:
+•	Used for controlling multiple electrical devices independently.
+3.	2 Lamps:
+•	Light sources controlled by the relay module.
+4.	Various Cables:
+•	Includes female-to-female, male-to-male, and female-to-male cables for wiring.
+5.	2 Lamp Holders (Fitting Lampu Plafon/Gantung):
+•	Fixtures for holding the lamps.
+6.	MCB (Miniature Circuit Breaker):
+•	Implemented for safety to protect against overcurrent.
+7.	Power Plug (Steker):
+•	Provides power supply to the circuit.
+8.	Copper Wire (Kabel Tembaga):
+•	Specifically, non-stranded copper wire with a size of 1.5 for electrical connections. Ensure proper insulation and quality.
+
 Installation and Usage of Discord Bot with NodeMCU (Arduino)
 Installation Steps:
 
@@ -100,4 +137,13 @@ Discord Bot Usage Steps:
 4.	Use Bot Commands:
 •	In the Discord server, use commands such as l1n to turn on Lamp 1 or l2m to turn off Lamp 2.
 
+Shortcomings of this Project:
 
+- Lack of Discord Library in Arduino:
+One limitation is the absence of a dedicated Discord library for Arduino applications. It is suggested that in the future, a specific library for Discord be provided, similar to the simplicity found in libraries for other platforms like Telegram. This would facilitate the creation and development of IoT projects with Discord integration.
+  
+- Local IP Address:
+The current implementation uses a local IP address for communication between the Discord bot and the IoT device (NodeMCU). It would be beneficial to explore options for dynamic or global IP addresses to enhance accessibility and connectivity.
+
+- Limited Hosting Compatibility:
+Due to the reliance on a local IP address, the project may face challenges when deployed on hosting services or platforms like Replit. As it stands, the local IP setup restricts the ability to seamlessly connect the IoT device with the Discord bot in hosting environments.
