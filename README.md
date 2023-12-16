@@ -1,7 +1,9 @@
 # Controller-Lamp-With-Discord-ESP8266-or-Pengendali-Lampu-Dengan-Discord-ESP8266
 Prototype Number V-1 Discord Controller Lamp
 
-HATI HATI DALAM MENJALANKAN PROJECT INI SAYA TIDAK BERTANGGUNG JAWAB UNTUK KECELAKAN ATAU APAPUN YANG TERJADI, ANDA HARUS MEMPELAJARAI DAN HATI HATI SAAT MEMPELAJARI TENTANG KELISTRIKAN , KARENA PROJECT INI TERDAPAT TEGANGAN TINGGI 
+HATI HATI DALAM MENJALANKAN PROJECT INI SAYA TIDAK BERTANGGUNG JAWAB UNTUK KECELAKAN ATAU APAPUN YANG TERJADI
+ANDA HARUS MEMPELAJARAI DAN HATI HATI SAAT MEMPELAJARI TENTANG KELISTRIKAN 
+KARENA PROJECT INI TERDAPAT TEGANGAN TINGGI 
 
 Jika Anda Tidak tahu rangkaian atau kelistikan project anda tanyakan ahlinya atau temanmu
 
@@ -53,6 +55,11 @@ Langkah-langkah Penggunaan Bot Discord:
 4.	Gunakan Perintah Bot:
 •	Di server Discord, gunakan perintah seperti l1n untuk menyalakan Lampu 1 atau l2m untuk mematikan Lampu 2.
 Catatan: Pastikan untuk menjaga keamanan token bot dan informasi sensitif lainnya agar tidak disertakan dalam repositori publik di GitHub.
+
+Kekurangan Project ini adalah 
+- Tidak ada library Discord di aplikasi arduino saya harap kedepanya disediakan library langsung seperti telegram agar mudah membuat atau mengembangkan iot dengan discord
+- IP masih lokal 
+- Tidak bisa di dijalankan di hosting atau replit karena menggunakan ip lokal jadi tidak akan terkoneksi iot dengan bot
 ________________________________________
 English:
 Installation and Usage of Discord Bot with NodeMCU (Arduino)
@@ -92,4 +99,5 @@ Discord Bot Usage Steps:
 
 4.	Use Bot Commands:
 •	In the Discord server, use commands such as l1n to turn on Lamp 1 or l2m to turn off Lamp 2.
+
 
