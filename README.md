@@ -1,6 +1,8 @@
 # Controller-Lamp-With-Discord-ESP8266-or-Pengendali-Lampu-Dengan-Discord-ESP8266
 Prototype Number V-1 Discord Controller Lamp
 
+Thanks For my friends help me to learn this , my first try is explode fuse on stalvolt and burn the 1 port relay haha, its everything okay now , not a big damage
+
 - HATI HATI DALAM MENJALANKAN PROJECT INI SAYA TIDAK BERTANGGUNG JAWAB UNTUK KECELAKAN ATAU APAPUN YANG TERJADI
 - ANDA HARUS MEMPELAJARAI DAN HATI HATI SAAT MEMPELAJARI TENTANG KELISTRIKAN 
 - KARENA PROJECT INI TERDAPAT TEGANGAN TINGGI 
