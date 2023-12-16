@@ -17,7 +17,7 @@ async def on_ready():
     print(f'Terhubung sebagai {bot.user.name} ({bot.user.id})')
 
     # Gantilah ID server dengan ID server Discord yang diinginkan
-    channel = bot.get_guild(1176552033327788072).text_channels[0]
+    channel = bot.get_guild(id server anda).text_channels[0]
 
     # Kirim pesan otomatis dengan daftar perintah
     help_message = (
